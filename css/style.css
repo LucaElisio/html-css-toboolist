@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
 
 /* Header Style */
@@ -13,7 +14,7 @@ body{
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.164);
 }
 
-/* Caratteristiche in comune dei container */
+/* common characteristics of the containers */
 .container{
     background-color: #edf2f7;
     width: 70%;
@@ -66,17 +67,20 @@ ul{
     margin-top: 20px;
 }
 
+/* single task of the list */
 .list-item{
-    padding: 5px;
+    padding: 5px 15px;
     margin-top: 10px;
     background-color: white;
     border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.164);
 }
 
 .task li{
     vertical-align: middle;
     display: inline-block;
     margin-right: 10px;
+    
 }
 
 .checked{
@@ -93,15 +97,19 @@ ul{
 .taskname{
     font-size: 20px;
     color: rgb(94, 94, 94);
+    
 }
+
 
 .done{
     text-decoration-line: line-through;
 }
+
 .tasktype{
-    padding: 5px;
+    padding: 8px;
     color: white;
-    border-radius: 10px;
+    border-radius: 15px;
+    font-size: 13px;
 }
 
 .editorial{
@@ -109,11 +117,19 @@ ul{
 }
 
 .goals{
-    background-color: violet;
+    background-color: #AB5DE6;
 }
 
 .recruiting{
-    background-color: aqua;
+    background-color: #2cc6ab;
+}
+
+.website{
+    background-color: #EC4A9D;
+}
+
+.sales{
+    background-color: #A3D116;
 }
 
 .undone {
@@ -129,4 +145,15 @@ ul{
     border-radius: 50%;
     text-align: center;
     font-size: 10px;
+}
+
+/* macrolist name */
+.macrolistname{
+    color: rgb(78, 78, 78);
+
+
+}
+
+.mobile{
+    background-color: orange;
 }
