@@ -4,3 +4,12 @@ body{
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Header Style */
+.headers{
+    background-color: #edf2f7;
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.164);
+}
+
